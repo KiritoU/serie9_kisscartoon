@@ -1,0 +1,14 @@
+venv
+soup
+.vscode
+__pycache__
+
+settings*
+test*
+admin
+
+wp-content
+
+log/*
+query*
+json
