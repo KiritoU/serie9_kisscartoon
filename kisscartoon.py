@@ -205,7 +205,7 @@ class Kisscartoon:
                 {
                     "ep_name": episode_name,
                     "ep_slug": slugify(episode_name),
-                    "ep_time": 0,
+                    "ep_time": self.get_timeupdate().strftime("%Y-%m-%d"),
                     "server_data": self.get_episode_server_from(episode_links),
                 }
             )
